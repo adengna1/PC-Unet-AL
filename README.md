@@ -4,6 +4,7 @@ PC-Unet-AL
 This is the implementation for “PC-Unet-AL” for paper: “Active Learning-Enhanced Pyramidal Convolution Unet for Change Detection in Optical and SAR Remote Sensing Image Pairs”, on IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (https://ieeexplore.ieee.org/abstract/document/10685129)
 
 1. Dataset
+
 To evaluate the performance of our PC-Unet-AL approach, we carry out a set of experiments utilizing three optical and SAR image pair datasets.
 
 The first dataset, referred to as the Shuguang dataset, comprises a SAR image and an optical satellite image, depicted in Fig. 3 (a) and (b), respectively. The SAR image, measuring 593×921 pixels with a single channel, was captured by the Radarsat-2 using C-band technology in June 2008. The optical image, measuring 593×921 pixels with three channels, was obtained from Google Earth in September 2012, incorporating RGB bands. This dataset illustrates alterations in land use within farmland. The corresponding CM, depicted in Fig. 3(c), was meticulously annotated through a blend of prior information and expert knowledge.
